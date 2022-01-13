@@ -1,0 +1,33 @@
+@media screen and (max-width:850px){
+    header .container {
+        display:flex; 
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .icones {
+        text-align: center;
+        margin-left: 35px;
+        height: 10px;
+        
+    }
+    .icones input {
+        margin-left: 10px;
+        height: 30px;
+        
+        
+    }
+
+     header .container {
+         position: relative;
+         height: 120px;
+     }
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 50%;
+    }
+ }
+}

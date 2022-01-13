@@ -1,0 +1,155 @@
+/* Elementos base */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+    --vermelho:#E50914;
+    --preto:#141414;
+
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+nav .logo {
+    color: var(--vermelho);
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color:#AAA;
+    cursor: pointer;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: var(--preto);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    margin-left: 45px;
+}
+
+.icones {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.icones input {
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#txtBusca { 
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+    background-color: var(--preto);
+}
+
+/* filme principal */
+
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(/imagens/fundo-venom.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.filme-principal .container { 
+    width: 70%;
+    margin-left: 30px;
+
+}
+.titulo {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao { 
+    background-color: rgba(109, 109, 110, 0.7);
+    border: none;
+    color: WHITE;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px
+}
+
+#btn1 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#btn1:hover {
+    background-color: rgba(255, 255, 255, 0.562);
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+#btn2 {
+    border-radius: 5px;
+    
+}
+
+#btn2:hover {
+    background-color: rgba(109, 109, 110, 0.356)
+}
+
+.botao i {
+    margin-right: 5px;
+    font-size: 15px; 
+}
+.filme-principal .botoes{
+    margin-left: 30px;
+}
+
+.box-filme { 
+    height: 350px;
+    border-radius: 5px;
+
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.carrosel-filmes h2 {
+    
+    padding: 10px;
+}
